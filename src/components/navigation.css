@@ -1,0 +1,20 @@
+.navigation-navigation {
+  position: relative;
+}
+.navigation-mohegan-pa-logo {
+  width: 176px;
+  height: 38px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.navigation-navlink {
+  display: contents;
+}
+.navigation-image {
+  width: 100%;
+  object-fit: cover;
+  text-decoration: none;
+}

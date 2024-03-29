@@ -1,0 +1,436 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.navigation {
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  padding: 23px 22px;
+  overflow: hidden;
+  align-self: flex-start;
+  background: linear-gradient(180deg, rgba(123, 30, 58, 1) 0%, rgba(64, 56, 156, 1) 60%, rgba(80, 9, 129, 1) 100%);
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  background-image: linear-gradient(90deg, rgb(123, 30, 58) 0.00%,rgb(64, 56, 156) 54.00%,rgb(80, 9, 129) 100.00%);
+}
+.primaryHero {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 1920px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 4, 71, 1);
+}
+.appAsidePromotion {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.appCalloutAside {
+  width: auto;
+  height: 450px;
+  display: flex;
+  background: linear-gradient(222.55deg, #1D8FED 0.11%, #2C66CC 9.92%, #3944B1 20.96%, #432A9C 30.77%, #4A178C 41.8%, #4E0C83 52.84%, #500981 65.11%, #540985 74.92%, #610C91 87.18%, #7610A6 98.22%, #9316C4 110.48%, #B91EE9 121.52%, #BC1FEC 122.75%);
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+.lightStrip {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  background: linear-gradient(90deg, #BC1FEC 0%, #FA4407 98.47%);
+  align-items: flex-start;
+}
+.howToPlay {
+  gap: 40px;
+  width: 100%;
+  display: flex;
+  padding: 8rem 0;
+  z-index: 0;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(9, 4, 71, 1);
+}
+.playSafe {
+  gap: 40px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 6rem 0;
+  z-index: 2;
+  overflow: hidden;
+  position: relative;
+  flex-wrap: wrap;
+  background: inear-gradient(180deg, rgba(9, 4, 71, 0) 0%, #090447 83%);
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.blueFade {
+  top: 0px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  position: absolute;
+  background: inear-gradient(180deg, rgba(9, 4, 71, 0) 0%, #090447 83%);
+  align-items: flex-start;
+  background-image: linear-gradient(180deg, rgba(9, 4, 71, 0) 0%, #090447 83%);
+}
+.paIndex {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(9, 4, 71, 1);
+}
+.howToPlayColumn {
+  gap: 40px;
+  width: 100%;
+  display: flex;
+  padding: 40px 40px 40px 0;
+  z-index: 2;
+  max-width: 400px;
+  align-items: flex-start;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.howToPlayColumnNoBorder {
+  gap: 40px;
+  width: 100%;
+  display: flex;
+  padding: 40px 40px 40px 0;
+  z-index: 2;
+  max-width: 400px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.primaryButton {
+  gap: 10px;
+  display: flex;
+  padding: 11px 40px;
+  box-shadow: 0 0 0 #BC1FEC;
+  transition: background 0.25s, box-shadow 0.25s;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(250, 68, 7, 1);
+}
+.primaryButton:hover {
+  background: #BC1FEC;
+  box-shadow: 0 0 20px #BC1FEC;
+}
+.primaryButtonText {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 19px;
+  font-style: Bold;
+  text-align: left;
+  font-family: PT Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.howToPlayTitleContainer {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.howToPlayTitle {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: left;
+  font-family: PT Sans Narrow;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.howToPlayParagraph {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: PT Serif;
+  font-weight: 400;
+  line-height: 172.30428457260132%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.heroHeadline {
+  color: rgb(255, 255, 255);
+  width: auto;
+  height: auto;
+  font-size: 60px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "PT Sans Narrow";
+  font-weight: 700;
+  line-height: 127.5%;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.hiddenStart {
+  opacity: 0;
+}
+.galleryCard {
+  width: 100%;
+  display: flex;
+  overflow: visible;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.downloadButton {
+  width: 180px;
+  cursor: pointer;
+  box-shadow: 0 0 0 #BC1FEC;
+  object-fit: cover;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  text-decoration: none;
+}
+.downloadButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #06e1fc;
+}
+.legal {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 0 2rem;
+  position: relative;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "PT Sans Narrow";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .legal {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: PT Sans Narrow;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+}
+@media(max-width: 1200px) {
+  .primaryHero {
+    height: 600px;
+  }
+  .heroHeadline {
+    font-size: 50px;
+    max-width: 600px;
+  }
+  .downloadButton {
+    width: 150px;
+  }
+}
+@media(max-width: 991px) {
+  .howToPlay {
+    gap: 20px;
+  }
+  .howToPlayColumn {
+    width: 280px;
+    padding: 40px 20px 40px 0;
+  }
+  .howToPlayColumnNoBorder {
+    width: 280px;
+    padding-right: 0;
+  }
+  .heroHeadline {
+    font-size: 42px;
+  }
+  .downloadButton {
+    width: 130px;
+  }
+}
+@media(max-width: 767px) {
+  .primaryHero {
+    height: 450px;
+  }
+  .howToPlay {
+    gap: 40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .howToPlayColumn {
+    width: 100%;
+    margin: 0 2rem;
+    padding: 3rem 0;
+    max-width: 400px;
+    border-width: 0 0 1px 0;
+    justify-content: center;
+  }
+  .howToPlayColumnNoBorder {
+    width: 100%;
+    margin: 0 2rem;
+    padding: 3rem 0;
+    max-width: 400px;
+    align-content: 100;
+  }
+  .howToPlayTitleContainer {
+    width: 100%;
+  }
+  .howToPlayTitle {
+    width: 100%;
+    font-size: 42px;
+  }
+  .howToPlayParagraph {
+    width: 100%;
+    font-size: 24px;
+  }
+  .heroHeadline {
+    width: 350px;
+    font-size: 28px;
+  }
+  .galleryCard {
+    flex-direction: column;
+  }
+  .downloadButton {
+    width: 180px;
+  }
+}
+@media(max-width: 479px) {
+  .primaryHero {
+    height: auto;
+    max-height: 600px;
+  }
+  .howToPlayTitle {
+    width: 100%;
+    font-size: 32px;
+  }
+  .howToPlayParagraph {
+    width: 100%;
+    font-size: 20px;
+  }
+  .heroHeadline {
+    font-size: 32px;
+  }
+  .downloadButton {
+    width: 250px;
+  }
+}

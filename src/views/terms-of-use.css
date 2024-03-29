@@ -1,0 +1,109 @@
+.terms-of-use-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.terms-of-use-terms-of-use {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 1000px;
+  margin-top: 4rem;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 8rem;
+}
+.terms-of-use-text {
+  color: #090447;
+  font-size: 60px;
+  font-family: "PT Sans Narrow";
+}
+.terms-of-use-container1 {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.terms-of-use-text001 {
+  color: rgb(9, 4, 71);
+  font-family: "PT Serif";
+  line-height: 1.5;
+}
+.terms-of-use-text002 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text023 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text035 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text075 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text080 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text085 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text090 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text095 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text100 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text109 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text114 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text119 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text124 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text133 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text138 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text147 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.terms-of-use-text160 {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media(max-width: 1200px) {
+  .terms-of-use-terms-of-use {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
