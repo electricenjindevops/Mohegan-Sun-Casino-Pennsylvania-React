@@ -23,7 +23,7 @@ const Navigation = (props) => {
 }
 
 Navigation.defaultProps = {
-  imageSrc: '/external/2023palogo4cwt-200h.webp',
+  imageSrc: '/external/MD-PA_OmniLogoH-ColorW.png',
   imageAlt: 'image',
 }
 
