@@ -76,7 +76,7 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  imageSrc: '/external/2023palogo4cwt-200h.webp',
+  imageSrc: '/external/MD-PA_OmniLogoH-ColorW.png',
   sVG03svgsocialfacebookblueSrc:
     '/external/svg03svgsocialfacebookblue4229-mvr9.svg',
   linkContainer: 'https://www.instagram.com/moheganpa/',
