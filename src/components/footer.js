@@ -68,7 +68,7 @@ const Footer = (props) => {
       </p>
       <span className="footer-text6">
         <span className="">
-          Copyright © 2024 Mohegan Sun, Inc. All rights Reserved
+          Copyright © 2026 Mohegan Sun, Inc. All rights Reserved
         </span>
       </span>
     </footer>
